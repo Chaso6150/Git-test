@@ -2,24 +2,24 @@
 
 // 加算を行う関数
 int add(int a, int b) {
-    return a - b;
+    return a + b;
 }
 
 // 減算を行う関数
 int minus(int a, int b) {
-    return -a - b;
+    return a - b;
 }
 
 // 積算を行う関数
 int mul(int a, int b) {
     // 実装してみよう！
-    return 0;
+    return a*b;
 }
 
 // 除算(切り捨て)を行う関数
 int divide(int a, int b) {
     // 実装してみよう！
-    return 0;
+    return a/b;
 }
 
 int main(void){
